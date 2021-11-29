@@ -30,6 +30,7 @@ public class View extends VBox {
     public void initView() {
         preview = new Label();
         preview.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
+        preview.setMinSize(400, 200);
         redSlider = new Slider(0, 255, 0);
         greenSlider = new Slider(0, 255, 0);
         blueSlider = new Slider(0, 255, 0);
